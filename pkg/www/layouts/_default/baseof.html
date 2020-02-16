@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.png" type="image/x-icon">
-	<meta name="google-site-verification" content="XsOAmV1gT-Y3458pKxdVRR0mHQ719UiZOf7_p6T4nyU">
 
 	<title>{{ if eq .Title .Site.Title }}{{- .Site.Title -}}{{ else }}{{ with .Title }}{{.}}{{ end }}{{ end }}</title>
 
@@ -38,7 +37,7 @@
 
 	{{ block "head" .}}{{ end }}
 
-	{{ partial "webpack" (dict "ctx" . "asset" "app") }}
+	<script type="module" src="/dist/pages/blog/index.js" defer></script>
 
 	{{ block "assets" .}}{{ end }}
 

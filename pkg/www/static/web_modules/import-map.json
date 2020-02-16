@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "vue/dist/vue.esm.browser": "./vue/dist/vue.esm.browser.js",
+    "highlight.js/lib/highlight": "./highlight.js/lib/highlight.js",
+    "highlight.js/lib/languages/yaml": "./highlight.js/lib/languages/yaml.js",
+    "highlight.js/lib/languages/javascript": "./highlight.js/lib/languages/javascript.js",
+    "highlight.js/lib/languages/dockerfile": "./highlight.js/lib/languages/dockerfile.js",
+    "highlight.js/lib/languages/php": "./highlight.js/lib/languages/php.js",
+    "highlight.js/lib/languages/sql": "./highlight.js/lib/languages/sql.js"
+  }
+}

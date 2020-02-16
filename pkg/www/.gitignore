@@ -9,4 +9,6 @@
 
 # Hugo
 /public
-/data/webpack.json
+
+# Snowpack
+/web_modules
